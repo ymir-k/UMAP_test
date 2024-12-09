@@ -7,7 +7,7 @@ This test folder has 3 files:-
 1. `pairwise_distance_df.csv`
 	- This has all the data needed to compute repeatability.
 	- The column `kdistance` has the relevant path lengths.
-	- The columns `focal_bird_id`, `combo_no` and `kdistance` are the ones most relevant for computing repeatability.
+	- The columns `cluster1`, `cluster2`, `iteration` and `kdistance` are the ones most relevant for computing repeatability.
 	- Columns:
 		- cluster1: 0-149; 1 of the 2 syllable clusters being tested
 		- cluster2: 0-149; 1 of the 2 syllable clusters being tested

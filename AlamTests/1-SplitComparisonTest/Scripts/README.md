@@ -17,11 +17,12 @@ This scripts folder has 5 files:-
 Order of execution:-
 
 1. `generate_split_embeddings.ipynb`
-2. `bird_paths_from_split_kmeans_centroids.ipynb`
-3. `find_kmeans_centroids_of_split_embeddings.ipynb`
+2. `find_kmeans_centroids_of_split_embeddings.ipynb`
+3. `bird_paths_from_split_kmeans_centroids.ipynb`
 
 OR
 
 1. `generate_split_embeddings.ipynb`
-2. `bird_paths_from_split_centroids.ipynb`
-3. `find_centroids_of_split_embeddings.ipynb`
+2. `find_centroids_of_split_embeddings.ipynb`
+3. `bird_paths_from_split_centroids.ipynb`
+

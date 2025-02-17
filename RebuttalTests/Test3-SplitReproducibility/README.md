@@ -1,0 +1,45 @@
+## Test #3 Split Reproducibility
+
+
+In the article `No support for honest signalling of male quality in zebra finch song; Bulla, Sankar, Forstmeier, 2025`, we test the reliability of the path length metric, as described in [Alam et al. (2024, Nature)](https://doi.org/10.1038/s41586-024-07207-4).
+
+We test the path length metric in various contexts, one of which is described in this folder.
+We provide here the corresponding scripts and results.
+
+
+
+We test this argument:
+
+- Is the path length of a birdsong consistent across different colonies of birds? i.e. Is the path length metric reproducible?
+
+
+#### Test description
+
+
+Here, you will find the description of the test we run to examine the above argument.
+
+	- In this test, we use the 31 tutored birds from Alam et. al ("tut.csv").
+	- 1 bird is chosen as the focal bird.
+	- The 30 non focal birds are randomly split into two, with 15 birds each.
+	- This makes 2 subsets of 16 birds each, both including the focal bird.
+	- We generate the UMAP embeddings for these 2 subsets with the given focal bird.
+	- We compute the path length of the focal bird in these 2 UMAPs.
+	- Then, we repeat this for each of the 31 birds.
+	- This generates 31*2=62 path lengths, 2 each per bird.
+	- Separately, in R, we check the reproducibility of the path length of a bird, given different neighbours.
+
+
+#### Test reproducibility
+
+For reproducing the results,
+the python scripts related to this test are in the folder `Scripts`.
+
+
+#### Test results
+
+The `Results` folder has the corresponding results.
+
+
+	
+Specific information  about  these  files is provided in the corresponding README.
+
